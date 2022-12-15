@@ -12,6 +12,8 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
+    position: relative;
+    top: 10px;
 }
 .navlink .content ul li a span{
     color: #287;
@@ -20,8 +22,28 @@
     color: aqua;
     text-decoration: underline;
 }
+.content .button ul {
+    display: flex;
+    position: relative;
+    bottom: 22px;
+  }
+  .content .button ul li a {
+    font-family: system-ui;
+    font-size: 15px;
+    background: black;
+    padding: 7px 5px;
+    border-radius: 5px;
+    color: white;
+    border: solid 2px lightgreen;
+  }
+  .content .button ul li a:hover {
+    background: transparent;
+    border: solid 2px rgba(144, 238, 144, 0.733);
+    color: rgba(255, 0, 0, 0.568);
+  }
 .image img{
-    height: 710px;
+    height: 712px;
+    
 }
 .info{
     background-color: black;
