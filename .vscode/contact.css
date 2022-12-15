@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.navlink .content{
+    text-align: center;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+.navlink .content ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navlink .content ul li a span{
+    color: #287;
+}
+.navlink .content ul li a span:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.image img{
+    height: 710px;
+}
+.info{
+    background-color: black;
+}
+.info .display h3{
+    color: white;
+    font-size: 20px;
+    font-family: syatem-ui;
+    padding-left: 30px;
+    margin-top: px;
+}
